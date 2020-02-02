@@ -14,3 +14,7 @@
 .right {
   flex: 0.25;
 }
+
+.project a {
+  color: var(--accent);
+}
