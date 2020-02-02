@@ -5,6 +5,7 @@ import "./styles/reset.css";
 import Header from "./components/Header";
 import Introduction from "./components/Introduction";
 import Projects from "./components/Projects";
+import Services from "./components/Services";
 import CTA from "./components/CTA";
 
 const App = () => (
@@ -12,6 +13,7 @@ const App = () => (
     <Header />
     <Introduction />
     <Projects />
+    <Services />
     <CTA />
   </div>
 );

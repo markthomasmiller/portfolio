@@ -1,0 +1,9 @@
+.services {
+  background: #eee;
+  padding: 4rem 0;
+}
+
+.content {
+  max-width: var(--width);
+  margin: auto;
+}
