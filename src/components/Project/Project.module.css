@@ -1,0 +1,16 @@
+.project {
+  margin-bottom: 4rem;
+}
+
+.columns {
+  display: flex;
+}
+
+.left {
+  padding-right: 1rem;
+  flex: 0.75;
+}
+
+.right {
+  flex: 0.25;
+}

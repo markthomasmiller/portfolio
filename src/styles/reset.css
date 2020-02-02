@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-size-adjust: 100%;
+}
+
+html {
+  font-size: var(--rem);
+  font-family: var(--font);
+  color: var(--body-color);
+  line-height: var(--line-height);
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 62px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+p {
+  margin: 1rem 0;
+}

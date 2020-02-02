@@ -1,0 +1,8 @@
+.skills {
+  list-style: none;
+}
+
+.skills li {
+  color: var(--gray);
+  font-size: var(--small);
+}

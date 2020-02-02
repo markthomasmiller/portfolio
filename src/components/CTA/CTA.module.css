@@ -1,0 +1,40 @@
+.cta {
+  color: #ababbc;
+  background: #1a1d20;
+}
+
+.content {
+  margin: auto;
+  width: 100%;
+  max-width: var(--width);
+  padding: 8rem 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  flex: 0.25;
+  padding-right: 2rem;
+}
+
+.right {
+  flex: 0.75;
+}
+
+.cta img {
+  width: 100%;
+  height: 250px;
+  background: #ffffff33;
+  border-radius: var(--radius);
+  display: block;
+}
+
+.cta h2 {
+  color: #fff;
+}
+
+.cta a {
+  color: #fff;
+  padding-bottom: 2px;
+  border-bottom: 2px solid var(--accent);
+}

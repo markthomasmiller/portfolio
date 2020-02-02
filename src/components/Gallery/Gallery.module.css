@@ -1,0 +1,13 @@
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
