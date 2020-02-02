@@ -18,6 +18,10 @@ export default [
     ],
     images: [
       {
+        url: "/assets/example2.png",
+        description: "imagedescription"
+      },
+      {
         url: "/assets/example.png",
         description: "imagedescription"
       }
