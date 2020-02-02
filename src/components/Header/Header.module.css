@@ -9,3 +9,7 @@
 .header a {
   color: var(--body-color);
 }
+
+.header img {
+  max-width: 100px;
+}
