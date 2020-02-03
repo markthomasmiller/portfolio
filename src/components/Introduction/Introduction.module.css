@@ -6,7 +6,7 @@
 }
 
 .introduction p {
-  font-size: 22px;
+  font-size: 23px;
 }
 
 .left {
@@ -26,6 +26,6 @@
 }
 
 .highlight {
-  background: #ffff0022;
+  background: var(--highlight);
   padding: 4px 0;
 }
