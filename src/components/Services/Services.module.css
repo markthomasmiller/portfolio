@@ -3,7 +3,32 @@
   padding: 4rem 0;
 }
 
+.services h2 {
+  margin-bottom: 1rem;
+}
+
+.services ul {
+  list-style: none;
+}
+
+.description {
+  margin-bottom: 2rem;
+  width: 75%;
+}
+
 .content {
   max-width: var(--width);
   margin: auto;
+}
+
+.grid {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
+
+.bigger {
+  flex: 1.5;
 }

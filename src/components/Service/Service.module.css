@@ -1,0 +1,32 @@
+.service {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.service svg {
+  margin-right: 0.5rem;
+}
+
+.service .iconContainer {
+  display: flex;
+  align-items: center;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.top {
+  font-weight: 600;
+  color: var(--accent);
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin-top: -14px;
+  margin-left: 6px;
+  text-transform: uppercase;
+  padding: 2px 4px;
+  border-radius: 2px;
+  background: #00000011;
+}
