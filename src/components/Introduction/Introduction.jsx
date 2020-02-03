@@ -6,10 +6,12 @@ const Introduction = () => (
     <div className={styles.left}>
       <h1>Selected work</h1>
       <p>
-        I'm Mark, a <span className={styles.highlight}>React engineer</span> and{" "}
-        <span className={styles.highlight}>UI/UX designer</span>. I strive not
-        only to create beautiful, cohesive products, but also to make them
-        profitable for businesses. This is some of my previous work.
+        I'm Mark, a{" "}
+        <span className={styles.highlight}>
+          React engineer and UI/UX designer
+        </span>
+        . I strive not only to create beautiful, cohesive products, but also to
+        make them profitable for businesses. This is some of my previous work.
       </p>
       <div className={styles.line} />
     </div>
