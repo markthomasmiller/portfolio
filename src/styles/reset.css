@@ -47,8 +47,9 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: var(--gray);
-  margin-bottom: 0.5rem;
-  font-weight: 500;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  opacity: 0.5;
 }
 
 p {
