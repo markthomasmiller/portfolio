@@ -1,6 +1,6 @@
 export default [
   {
-    title: "MageTools",
+    title: "MageTools: A DevTools Alternative",
     description:
       "I was the _sole engineer and designer_ for MageTools, a faster alternative to Google Chrome's DevTools inspector. I handled everything from designing its branding and onboarding to engineering its main features.",
     link: {
@@ -14,23 +14,28 @@ export default [
       "User Onboarding",
       "UI/UX Design",
       "Branding",
-      "HTML & CSS"
+      "HTML & CSS",
+      "Chrome Extension API"
     ],
     images: [
       {
-        url: "/assets/1.png",
+        url: "/assets/magetools1.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/2.png",
+        url: "/assets/magetools2.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/3.png",
+        url: "/assets/magetools3.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/4.png",
+        url: "/assets/magetools4.png",
+        description: "imagedescription"
+      },
+      {
+        url: "/assets/magetools5.png",
         description: "imagedescription"
       }
     ]
@@ -49,19 +54,15 @@ export default [
     ],
     images: [
       {
-        url: "/assets/1.png",
+        url: "/assets/diversify1.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/2.png",
+        url: "/assets/diversify2.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/3.png",
-        description: "imagedescription"
-      },
-      {
-        url: "/assets/4.png",
+        url: "/assets/diversify3.png",
         description: "imagedescription"
       }
     ]
@@ -77,19 +78,15 @@ export default [
     skills: ["React", "JSON", "UI", "UX", "Responsive design", "JSON"],
     images: [
       {
-        url: "/assets/1.png",
+        url: "/assets/bizgrid1.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/2.png",
+        url: "/assets/bizgrid2.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/3.png",
-        description: "imagedescription"
-      },
-      {
-        url: "/assets/4.png",
+        url: "/assets/bizgrid3.png",
         description: "imagedescription"
       }
     ]
@@ -105,19 +102,27 @@ export default [
     skills: ["Ruby on Rails", "JavaScript", "UI", "UX", "Branding"],
     images: [
       {
-        url: "/assets/1.png",
+        url: "/assets/featurebridge1.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/2.png",
+        url: "/assets/featurebridge2.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/3.png",
+        url: "/assets/featurebridge3.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/4.png",
+        url: "/assets/featurebridge4.png",
+        description: "imagedescription"
+      },
+      {
+        url: "/assets/featurebridge5.png",
+        description: "imagedescription"
+      },
+      {
+        url: "/assets/featurebridge6.png",
         description: "imagedescription"
       }
     ]
@@ -141,25 +146,17 @@ export default [
     ],
     images: [
       {
-        url: "/assets/1.png",
+        url: "/assets/jump1.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/2.png",
-        description: "imagedescription"
-      },
-      {
-        url: "/assets/3.png",
-        description: "imagedescription"
-      },
-      {
-        url: "/assets/4.png",
+        url: "/assets/jump2.png",
         description: "imagedescription"
       }
     ]
   },
   {
-    title: "Everpage",
+    title: "Everpage: A Landing Page Builder",
     description:
       "I designed and developed this landing page builder with React. Users could arrange their preferred sections (pricing charts, FAQ sections, feature descriptions), edit their content, and select their favorite font and color to _generate their own landing page in minutes_.",
     skills: [
@@ -177,19 +174,19 @@ export default [
     ],
     images: [
       {
-        url: "/assets/1.png",
+        url: "/assets/everpage1.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/2.png",
+        url: "/assets/everpage2.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/3.png",
+        url: "/assets/everpage3.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/4.png",
+        url: "/assets/everpage4.png",
         description: "imagedescription"
       }
     ]
@@ -205,19 +202,15 @@ export default [
     skills: ["UI", "UX", "Branding", "Color theory"],
     images: [
       {
-        url: "/assets/1.png",
+        url: "/assets/sorcerer1.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/2.png",
+        url: "/assets/sorcerer2.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/3.png",
-        description: "imagedescription"
-      },
-      {
-        url: "/assets/4.png",
+        url: "/assets/sorcerer3.png",
         description: "imagedescription"
       }
     ]
@@ -229,27 +222,23 @@ export default [
     skills: ["Ruby on Rails", "JavaScript", "Chart.js", "UI", "UX"],
     images: [
       {
-        url: "/assets/1.png",
+        url: "/assets/diversifyadmin1.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/2.png",
+        url: "/assets/diversifyadmin2.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/3.png",
-        description: "imagedescription"
-      },
-      {
-        url: "/assets/4.png",
+        url: "/assets/diversifyadmin3.png",
         description: "imagedescription"
       }
     ]
   },
   {
-    title: "MageTools marketing site",
+    title: "MageTools Marketing Site",
     description:
-      "I designed and developed a _media-rich marketing site_ with a live demo, promotional video, and various gifs on the homepage. I chose to build on Jekyll for performance benefits, as well as speed of development. In addition to being easy to edit, the site also _controls the user onboarding for MageTools_ and hosts the _serverless function used for validating licenses_.",
+      "I designed and developed a _media-rich marketing site_ with a live demo, promotional video, and various gifs on the homepage. Because of the bandwidth requirements, I chose to build on Jekyll to keep the site _fast and cost efficient_. The site also _controls the user onboarding for MageTools_ and hosts the serverless function for validating licenses.",
     link: {
       text: "Go to website",
       url: "https://mage.tools"
@@ -268,19 +257,15 @@ export default [
     ],
     images: [
       {
-        url: "/assets/1.png",
+        url: "/assets/magetoolsmarketing1.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/2.png",
+        url: "/assets/magetoolsmarketing2.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/3.png",
-        description: "imagedescription"
-      },
-      {
-        url: "/assets/4.png",
+        url: "/assets/magetoolsmarketing3.png",
         description: "imagedescription"
       }
     ]
