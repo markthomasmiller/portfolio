@@ -2,7 +2,28 @@
   list-style: none;
 }
 
-.skills li {
+.skills strong {
+  font-weight: 400;
+  color: #000;
+  font-size: var(--small);
+  display: block;
+}
+
+.skills ul {
+  list-style: none;
+}
+
+.skill {
   color: var(--gray);
   font-size: var(--small);
+  display: inline-block;
+}
+
+.skill:after {
+  content: ", ";
+  margin-right: 4px;
+}
+
+.skill:last-of-type:after {
+  content: "";
 }
