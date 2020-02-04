@@ -6,7 +6,7 @@
 }
 
 .introduction p {
-  font-size: 23px;
+  font-size: 21px;
 }
 
 .left {
@@ -21,8 +21,8 @@
   height: 6px;
   max-width: 6rem;
   width: 100%;
-  margin: 2rem 0 1rem;
-  background: var(--accent);
+  margin: 2rem 0;
+  background: linear-gradient(45deg, red, blue);
 }
 
 .highlight {

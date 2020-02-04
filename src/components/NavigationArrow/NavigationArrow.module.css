@@ -11,12 +11,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #1a1d2055;
+  background: #ffffff33;
   backdrop-filter: blur(4px);
 }
 
-.button:hover {
-  background: #1a1d20cc;
+.left:hover .button,
+.right:hover .button {
+  background: #ffffff44;
 }
 
 .buttonContainer {
@@ -26,8 +27,11 @@
   display: flex;
   align-items: center;
   padding: 1rem;
-  opacity: 0;
   transition: 100ms opacity ease-in-out;
+}
+
+.left,
+.right {
   cursor: pointer;
 }
 
@@ -43,22 +47,6 @@
 
 .arrow svg {
   stroke: #fff;
-}
-
-.left .buttonContainer {
-  opacity: 0;
-}
-
-.right .buttonContainer {
-  opacity: 0;
-}
-
-.left:hover .buttonContainer {
-  opacity: 1;
-}
-
-.right:hover .buttonContainer {
-  opacity: 1;
 }
 
 .right .buttonContainer {
