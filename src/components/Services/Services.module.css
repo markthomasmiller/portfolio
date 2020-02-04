@@ -32,3 +32,11 @@
 .bigger {
   flex: 1.5;
 }
+
+.line {
+  height: 4px;
+  max-width: 6rem;
+  width: 100%;
+  background: var(--accent);
+  margin: 2rem 0;
+}
