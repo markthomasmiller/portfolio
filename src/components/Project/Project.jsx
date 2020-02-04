@@ -13,11 +13,7 @@ const Project = ({ project }) => {
         <div className={styles.left}>
           <h3>{title}</h3>
           <Markdown source={description} />
-          {link ? (
-            <a href={link.url}>{link.text} →</a>
-          ) : (
-            <div className={styles.comingSoon}>Link coming soon</div>
-          )}
+          {link && <a href={link.url}>{link.text} →</a>}
         </div>
         <div className={styles.right}>
           <Skills skills={skills} />
