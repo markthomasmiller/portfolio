@@ -2,14 +2,11 @@
   color: #ababbc;
   background: #000;
   border-radius: var(--radius);
+  padding: 5rem;
 }
 
 .content {
-  flex: ;
   max-width: var(--content-width);
-  padding: 5rem 0 5rem 5rem;
-  position: relative;
-  z-index: 1;
 }
 
 .cta h2 {
