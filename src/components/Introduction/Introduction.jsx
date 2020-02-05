@@ -6,10 +6,11 @@ const Introduction = () => (
   <div className={styles.introduction}>
     <h1>“Mark is without a doubt our secret weapon.”</h1>
     <p>
-      I'm Mark Thomas Miller, a{" "}
-      <span className={styles.highlight}>React engineer and designer</span>. I
-      create beautiful, cohesive, and ethical products that produce business
-      results.
+      I'm Mark Thomas Miller,{" "}
+      <span className={styles.highlight}>a hybrid engineer and designer</span>{" "}
+      who works primarily with React and Ruby on Rails. I strive to build
+      beautiful, cohesive, and ethical products. I'm currently available for
+      consulting work.
     </p>
     <Testimonial
       name="Daeshawn Ballard"

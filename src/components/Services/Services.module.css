@@ -5,6 +5,13 @@
   margin-bottom: 5rem;
 }
 
+@media (max-width: 1200px) {
+  .services {
+    padding: 2rem;
+    margin: 0 0 2rem;
+  }
+}
+
 .services h2 {
   margin-bottom: 1rem;
 }
@@ -26,6 +33,16 @@
   flex: 1;
 }
 
-.bigger {
-  flex: 1.5;
+@media (max-width: 950px) {
+  .grid {
+    display: block;
+  }
+
+  .column {
+    margin-bottom: 2rem;
+  }
+
+  .column:last-of-type {
+    margin-bottom: 0;
+  }
 }

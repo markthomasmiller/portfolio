@@ -46,7 +46,7 @@
 }
 
 .arrow svg {
-  stroke: #fff;
+  stroke: var(--gray);
 }
 
 .right .buttonContainer {

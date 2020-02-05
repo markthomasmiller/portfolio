@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./CTA.module.css";
 
 const CTA = () => (
-  <div className={styles.cta}>
+  <div className={styles.cta} id="contact">
     <div className={styles.content}>
       <h2>Interested in working together?</h2>
       <p>

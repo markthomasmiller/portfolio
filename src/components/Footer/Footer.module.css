@@ -20,3 +20,9 @@
 .footer a:hover {
   color: #000;
 }
+
+@media (max-width: 1200px) {
+  .footer {
+    padding-top: 2rem;
+  }
+}

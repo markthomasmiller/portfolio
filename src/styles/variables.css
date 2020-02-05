@@ -11,4 +11,6 @@
   --small: 15px;
   --accent: #3333ff;
   --highlight: linear-gradient(45deg, #3333ff22, #ff333322);
+  --breakpoint-large: 1200px;
+  --breakpoint-small: 950px;
 }

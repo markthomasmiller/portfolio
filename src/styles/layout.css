@@ -5,7 +5,7 @@
   margin: auto;
 }
 
-@media (max-width: var(--width)) {
+@media (max-width: 1200px) {
   .content {
     padding: 1rem;
   }

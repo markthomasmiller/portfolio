@@ -5,8 +5,15 @@
   border-left: 4px solid var(--accent);
 }
 
+@media (max-width: 1200px) {
+  .testimonial {
+    margin-left: -1rem;
+    border-left-color: #000;
+  }
+}
+
 .person {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   margin-top: 1rem;
   color: var(--gray);
