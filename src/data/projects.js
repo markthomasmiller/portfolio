@@ -42,7 +42,7 @@ export default [
     description:
       "I was the _sole engineer and designer_ for MageTools, a faster alternative to Google Chrome's DevTools inspector. I handled everything from designing its branding and onboarding to developing its feature set that works extensively with the DOM. It was featured on Web Tools Weekly and BetaPage.",
     link: {
-      text: "Go to website",
+      text: "Try demo on homepage",
       url: "https://mage.tools"
     },
     skills: {
