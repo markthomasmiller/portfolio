@@ -1,6 +1,8 @@
-# Mark Miller's Portfolio
+# Mark Thomas Miller's Portfolio
 
-I built this portfolio in React so it would serve as a code sample. It highlights some of the work I've done.
+I built this portfolio in React so it would serve as a code sample.
+
+[View it here →](https://portfolio.zeph.co)
 
 ## Structure
 
@@ -34,7 +36,7 @@ This is a standard, non-ejected Create React App application. Therefore, you can
 
 ## Credit
 
-I used the wonderful [react-icons] extension for the SVGs in this app.
+I used the wonderful [react-icons](https://github.com/react-icons/react-icons) extension for the icons displayed throughout the app. These icons are open source under the following licenses.
 
 | Icon Library                                                  | License                                                                                   |
 | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
