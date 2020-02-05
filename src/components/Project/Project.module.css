@@ -34,6 +34,13 @@
   border-radius: 2px;
 }
 
+@media (max-width: 1200px) {
+  .project em {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
 .comingSoon {
   color: var(--gray);
   opacity: 0.5;

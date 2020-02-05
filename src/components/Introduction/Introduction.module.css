@@ -9,3 +9,10 @@
   padding: 2px;
   border-radius: 2px;
 }
+
+@media (max-width: 1200px) {
+  .highlight {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
