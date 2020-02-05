@@ -11,7 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ffffff;
+  background: #ffffffcc;
   backdrop-filter: blur(4px);
   border: 0;
   transition: background 100ms ease-in-out;
@@ -25,10 +25,6 @@
   background: #fff;
 }
 
-.button:hover svg {
-  stroke: #000;
-}
-
 .buttonContainer {
   position: absolute;
   top: 0;
@@ -36,7 +32,6 @@
   display: flex;
   align-items: center;
   padding: 1rem;
-  transition: 100ms opacity ease-in-out;
 }
 
 .left {
@@ -56,21 +51,4 @@
 
 .right .buttonContainer {
   right: 0;
-}
-
-@media (max-width: 1200px) {
-  .button {
-    background: #fff;
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-
-  .arrow svg {
-    stroke: #000;
-  }
-
-  .left:hover .button,
-  .right:hover .button {
-    background: #fff;
-  }
 }
