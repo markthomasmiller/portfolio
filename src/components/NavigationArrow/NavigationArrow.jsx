@@ -4,9 +4,9 @@ import cx from "classnames";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 
 const NavigationArrow = ({ direction, onClick }) => (
-  <div onClick={onClick} className={cx(styles[direction], styles.arrow)}>
+  <div className={cx(styles[direction], styles.arrow)}>
     <div className={cx(styles.buttonContainer)}>
-      <div className={styles.button}>
+      <div className={styles.button} onClick={onClick}>
         {direction === "left" ? <FiChevronLeft /> : <FiChevronRight />}
       </div>
     </div>

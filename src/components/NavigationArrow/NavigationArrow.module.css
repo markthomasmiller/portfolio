@@ -13,11 +13,17 @@
   justify-content: center;
   background: #ffffff33;
   backdrop-filter: blur(4px);
+  border: 0;
+  transition: background 100ms ease-in-out;
+  cursor: pointer;
 }
 
-.left:hover .button,
-.right:hover .button {
-  background: #ffffff44;
+.button:hover {
+  background: #fff;
+}
+
+.button:hover svg {
+  stroke: #000;
 }
 
 .buttonContainer {
@@ -28,11 +34,6 @@
   align-items: center;
   padding: 1rem;
   transition: 100ms opacity ease-in-out;
-}
-
-.left,
-.right {
-  cursor: pointer;
 }
 
 .left {
@@ -46,9 +47,27 @@
 }
 
 .arrow svg {
-  stroke: var(--gray);
+  stroke: #fff;
+  transition: stroke 100ms ease-in-out;
 }
 
 .right .buttonContainer {
   right: 0;
+}
+
+@media (max-width: 1200px) {
+  .button {
+    background: #fff;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .arrow svg {
+    stroke: #000;
+  }
+
+  .left:hover .button,
+  .right:hover .button {
+    background: #fff;
+  }
 }

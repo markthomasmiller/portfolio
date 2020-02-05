@@ -43,3 +43,14 @@
   margin-right: 8px;
   fill: yellow;
 }
+
+@media (max-width: 1200px) {
+  .sample {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+
+  .sample svg {
+    margin-right: 4px;
+  }
+}

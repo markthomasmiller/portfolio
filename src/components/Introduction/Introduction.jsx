@@ -8,9 +8,8 @@ const Introduction = () => (
     <p>
       I'm Mark Thomas Miller,{" "}
       <span className={styles.highlight}>a hybrid engineer and designer</span>{" "}
-      who works primarily with React and Ruby on Rails. I strive to build
-      beautiful, cohesive, and ethical products. I'm currently available for
-      consulting work.
+      who works primarily with React. I strive to build beautiful, cohesive, and
+      ethical products. I'm currently available for consulting work.
     </p>
     <Testimonial
       name="Daeshawn Ballard"

@@ -13,7 +13,11 @@ const Project = ({ project }) => {
         <div className={styles.left}>
           <h3>{title}</h3>
           <Markdown source={description} />
-          {link && <a href={link.url}>{link.text} →</a>}
+          {link && (
+            <a href={link.url} target="_blank" rel="noreferrer noopener">
+              {link.text} →
+            </a>
+          )}
         </div>
         <div className={styles.right}>
           <Skills skills={skills} />
