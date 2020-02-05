@@ -113,6 +113,33 @@ export default [
     ]
   },
   {
+    title: "Pittsburgh BizGrid",
+    description:
+      "I was hired to develop and design this React application. I was fortunate to work alongside Google and Carnegie Mellon University to brainstorm its strategic direction. It is a progressive web app with an easy-to-use mobile design, and it has no hosting costs.",
+    link: {
+      text: "Go to website",
+      url: "https://pghbizgrid.app"
+    },
+    skills: {
+      development: ["React", "JSON", "HTML (JSX)", "CSS3", "Netlify"],
+      design: ["UI", "UX", "Mobile design", "Typography"]
+    },
+    images: [
+      {
+        url: "/assets/bizgrid-hero.png",
+        description: "The hero section on the Pittsburgh BizGrid"
+      },
+      {
+        url: "/assets/bizgrid-selection.png",
+        description: "The UI for making a selection on the Pittsburgh BizGrid"
+      },
+      {
+        url: "/assets/bizgrid-result.png",
+        description: "A result from the Pittsburgh BizGrid"
+      }
+    ]
+  },
+  {
     title: "Diversify Pittsburgh",
     description:
       "I was hired to _design and develop this 50+ page B2B application_, from choosing the tech stack to designing the user flows and writing the code that matches people with contracting opportunities in their industry. I wrote it with Ruby on Rails, integrated data visualization tools, and added an admin dashboard to manage users and track platform metrics.",
@@ -142,33 +169,6 @@ export default [
         url: "/assets/diversify-admin-stats.png",
         description:
           "The NAICS dashboard on Diversify Pittsburgh (only accessible by admins), with sample data"
-      }
-    ]
-  },
-  {
-    title: "Pittsburgh BizGrid",
-    description:
-      "I was hired to develop and design this React application. I was fortunate to work alongside Google and Carnegie Mellon University to brainstorm its strategic direction. It is a progressive web app with an easy-to-use mobile design, and it has no hosting costs.",
-    link: {
-      text: "Go to website",
-      url: "https://pghbizgrid.app"
-    },
-    skills: {
-      development: ["React", "JSON", "HTML (JSX)", "CSS3", "Netlify"],
-      design: ["UI", "UX", "Mobile design", "Typography"]
-    },
-    images: [
-      {
-        url: "/assets/bizgrid-hero.png",
-        description: "The hero section on the Pittsburgh BizGrid"
-      },
-      {
-        url: "/assets/bizgrid-selection.png",
-        description: "The UI for making a selection on the Pittsburgh BizGrid"
-      },
-      {
-        url: "/assets/bizgrid-result.png",
-        description: "A result from the Pittsburgh BizGrid"
       }
     ]
   },
