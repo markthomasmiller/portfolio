@@ -1,0 +1,27 @@
+.testimonial {
+  font-weight: 500;
+  margin-top: 2rem;
+  padding-left: 1rem;
+  border-left: 4px solid var(--accent);
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  color: var(--gray);
+  font-size: var(--small);
+  transition: 100ms color ease-in-out;
+}
+
+.person img {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
+  display: block;
+  border-radius: 50%;
+}
+
+.person:hover {
+  color: var(--accent);
+}

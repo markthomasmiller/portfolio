@@ -20,27 +20,29 @@ export default [
     },
     images: [
       {
-        url: "/assets/everpage3.png",
-        description: "imagedescription"
+        url: "/assets/everpage-dashboard.png",
+        description: "A user's Everpage dashboard"
       },
       {
-        url: "/assets/everpage1.png",
-        description: "imagedescription"
+        url: "/assets/everpage-colors.png",
+        description:
+          "The UI used to select the colors when building an Everpage website"
       },
       {
-        url: "/assets/everpage2.png",
-        description: "imagedescription"
+        url: "/assets/everpage-editor.png",
+        description: "The UI used to edit the contents in an Everpage section"
       },
       {
-        url: "/assets/everpage4.png",
-        description: "imagedescription"
+        url: "/assets/everpage-fonts.png",
+        description:
+          "The UI used to select the fonts when building an Everpage website"
       }
     ]
   },
   {
     title: "MageTools: A DevTools Alternative",
     description:
-      "I was the _sole engineer and designer_ for MageTools, a faster alternative to Google Chrome's DevTools inspector. I handled everything from designing its branding and onboarding to developing its feature set that works extensively with the DOM. It was featured on Web Tools Weekly and BetaPage.",
+      "_I was the sole engineer and designer for MageTools_, a faster alternative to Google Chrome's DevTools inspector. I handled everything from designing its branding and onboarding to developing its feature set that works extensively with the DOM. It was featured in Web Tools Weekly and on BetaPage.",
     link: {
       text: "Try demo on homepage",
       url: "https://mage.tools"
@@ -50,7 +52,7 @@ export default [
         "React",
         "JavaScript",
         "Serverless",
-        "HTML5",
+        "HTML5 (Custom Elements)",
         "SCSS",
         "Chrome Extension API"
       ],
@@ -58,24 +60,24 @@ export default [
     },
     images: [
       {
-        url: "/assets/magetools2.png",
-        description: "imagedescription"
+        url: "/assets/magetools-use.png",
+        description: "A screenshot of MageTools in action"
       },
       {
-        url: "/assets/magetools1.png",
-        description: "imagedescription"
+        url: "/assets/magetools-inspector.png",
+        description: "The MageTools style inspector"
       },
       {
-        url: "/assets/magetools3.png",
-        description: "imagedescription"
+        url: "/assets/magetools-editor.png",
+        description: "The MageTools live CSS editor"
       },
       {
-        url: "/assets/magetools4.png",
-        description: "imagedescription"
+        url: "/assets/magetools-onboarding.png",
+        description: "A screenshot from the MageTools onboarding process"
       },
       {
-        url: "/assets/magetools5.png",
-        description: "imagedescription"
+        url: "/assets/magetools-promo.png",
+        description: "A promotional image for MageTools"
       }
     ]
   },
@@ -93,52 +95,53 @@ export default [
     },
     images: [
       {
-        url: "/assets/featurebridge1.png",
-        description: "imagedescription"
+        url: "/assets/featurebridge-hero.png",
+        description: "The hero section on the Featurebridge website"
       },
       {
-        url: "/assets/featurebridge2.png",
-        description: "imagedescription"
+        url: "/assets/featurebridge-closeup.png",
+        description: "A closeup of the UI details on Featurebridge"
       },
       {
-        url: "/assets/featurebridge3.png",
-        description: "imagedescription"
+        url: "/assets/featurebridge-roadmap.png",
+        description: "A Featurebridge roadmap"
       },
       {
-        url: "/assets/featurebridge4.png",
-        description: "imagedescription"
-      },
-      {
-        url: "/assets/featurebridge5.png",
-        description: "imagedescription"
-      },
-      {
-        url: "/assets/featurebridge6.png",
-        description: "imagedescription"
+        url: "/assets/featurebridge-dashboard.png",
+        description: "A user's Featurebridge dashboard"
       }
     ]
   },
   {
     title: "Diversify Pittsburgh",
     description:
-      "I was hired to _design and develop this 50+ page B2B Rails application_, from choosing the tech stack to developing the user flows and writing the algorithm that helps people discover contracting opportunities in their industry. I also created a user role management system. ",
+      "I was hired to _design and develop this 50+ page B2B application_, from choosing the tech stack to designing the user flows and writing the code that matches people with contracting opportunities in their industry. I wrote it with Ruby on Rails, integrated data visualization tools, and added an admin dashboard to manage users and track platform metrics.",
     skills: {
-      development: ["Ruby on Rails", "JavaScript", "HTML5 (ERB)", "SCSS"],
+      development: [
+        "Ruby on Rails",
+        "JavaScript",
+        "HTML5 (ERB)",
+        "SCSS",
+        "Chart.js"
+      ],
       design: ["UI", "UX", "User flow", "Mobile design"]
     },
     sampleData: true,
     images: [
       {
-        url: "/assets/diversify2.png",
-        description: "imagedescription"
+        url: "/assets/diversify-admin-profile.png",
+        description:
+          "A user's profile on Diversify Pittsburgh (only accessible by admins), with sample data"
       },
       {
-        url: "/assets/diversify1.png",
-        description: "imagedescription"
+        url: "/assets/diversify-stats.png",
+        description:
+          "The UI that displays a client's stats on Diversify Pittsburgh, with sample data"
       },
       {
-        url: "/assets/diversify3.png",
-        description: "imagedescription"
+        url: "/assets/diversify-admin-stats.png",
+        description:
+          "The NAICS dashboard on Diversify Pittsburgh (only accessible by admins), with sample data"
       }
     ]
   },
@@ -151,21 +154,21 @@ export default [
       url: "https://pghbizgrid.app"
     },
     skills: {
-      development: ["React", "JSON", "CSS3"],
-      design: ["UI", "UX", "Mobile design"]
+      development: ["React", "JSON", "HTML (JSX)", "CSS3", "Netlify"],
+      design: ["UI", "UX", "Mobile design", "Typography"]
     },
     images: [
       {
-        url: "/assets/bizgrid1.png",
-        description: "imagedescription"
+        url: "/assets/bizgrid-hero.png",
+        description: "The hero section on the Pittsburgh BizGrid"
       },
       {
-        url: "/assets/bizgrid2.png",
-        description: "imagedescription"
+        url: "/assets/bizgrid-selection.png",
+        description: "The UI for making a selection on the Pittsburgh BizGrid"
       },
       {
-        url: "/assets/bizgrid3.png",
-        description: "imagedescription"
+        url: "/assets/bizgrid-result.png",
+        description: "A result from the Pittsburgh BizGrid"
       }
     ]
   },
@@ -191,21 +194,22 @@ export default [
     },
     images: [
       {
-        url: "/assets/jump1.png",
-        description: "imagedescription"
+        url: "/assets/jump-login.png",
+        description:
+          "The login page at Jump with some of their games displayed in the background"
       },
       {
-        url: "/assets/jump2.png",
-        description: "imagedescription"
+        url: "/assets/jump-landing.png",
+        description: "One of the dynamic landing pages I designed at Jump"
       }
     ]
   },
   {
     title: "Sorcerer",
     description:
-      "Developers spend between 7 to 9 hours per day looking at their text editors. I designed an open source VS Code theme, primarily for React development, that was useful for these long work days. This was primarily an _exercise in color for a product that people use all day, every day_. I also created its landing page.",
+      "Developers spend between 7 to 9 hours per day looking at their text editors. I designed an open source VS Code theme, primarily for React development, that was useful for these long work days. This was primarily an _exercise in color theory for a product that people use all day, every day_. I also designed its landing page.",
     link: {
-      text: "Go to website",
+      text: "Go to landing page",
       url: "https://sorcerer.mage.tools"
     },
     skills: {
@@ -214,53 +218,23 @@ export default [
     },
     images: [
       {
-        url: "/assets/sorcerer1.png",
-        description: "imagedescription"
+        url: "/assets/sorcerer-jsx.png",
+        description: "JSX with VS Code's Sorcerer theme"
       },
       {
-        url: "/assets/sorcerer2.png",
-        description: "imagedescription"
+        url: "/assets/sorcerer-css.png",
+        description: "CSS with VS Code's Sorcerer theme"
       },
       {
-        url: "/assets/sorcerer3.png",
-        description: "imagedescription"
-      }
-    ]
-  },
-  {
-    title: "Diversify Pittsburgh, Admin Dashboard",
-    description:
-      "I designed and developed this data-heavy admin dashboard to help my client manage their users and track platform metrics. I added charts for data visualization, user roles, the functionality to approve users, and performance insights, and admin notifications.",
-    skills: {
-      development: [
-        "Ruby on Rails",
-        "JavaScript",
-        "Chart.js",
-        "HTML5 (ERB)",
-        "SCSS"
-      ],
-      design: ["UI", "UX", "User flow", "Accessibility"]
-    },
-    sampleData: true,
-    images: [
-      {
-        url: "/assets/diversifyadmin1.png",
-        description: "imagedescription"
-      },
-      {
-        url: "/assets/diversifyadmin2.png",
-        description: "imagedescription"
-      },
-      {
-        url: "/assets/diversifyadmin3.png",
-        description: "imagedescription"
+        url: "/assets/sorcerer-json.png",
+        description: "JSON with VS Code's Sorcerer theme"
       }
     ]
   },
   {
     title: "MageTools Marketing Site",
     description:
-      "I designed and developed the marketing site for MageTools. It hosts a live demo and promotional video and controls user onboarding and license validation. Because of the bandwidth requirements, I chose to build on Jekyll to keep the site as small and cost-efficient as possible.",
+      "I designed and developed the marketing site for MageTools. _I also rigged a live demo and created the promotional video._ In addition, this site controls the user onboarding and license validation. Because of the heavy media files, I chose to build on Jekyll to keep the site as small and cost-efficient as possible.",
     link: {
       text: "Go to website",
       url: "https://mage.tools"
@@ -285,16 +259,16 @@ export default [
     },
     images: [
       {
-        url: "/assets/magetoolsmarketing1.png",
-        description: "imagedescription"
+        url: "/assets/magetools-marketing-hero.png",
+        description: "The hero section on the MageTools marketing site"
       },
       {
-        url: "/assets/magetoolsmarketing2.png",
-        description: "imagedescription"
+        url: "/assets/magetools-marketing-feature.png",
+        description: "One of the features on the MageTools marketing site"
       },
       {
-        url: "/assets/magetoolsmarketing3.png",
-        description: "imagedescription"
+        url: "/assets/magetools-marketing-features.png",
+        description: "A spread of features on the MageTools marketing site"
       }
     ]
   }

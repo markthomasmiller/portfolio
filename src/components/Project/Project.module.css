@@ -24,8 +24,8 @@
 .project em {
   font-style: normal;
   background: var(--highlight);
-  padding: 4px;
-  border-radius: 4px;
+  padding: 2px;
+  border-radius: 2px;
 }
 
 .comingSoon {
