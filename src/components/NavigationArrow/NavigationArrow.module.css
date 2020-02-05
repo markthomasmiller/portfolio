@@ -11,11 +11,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ffffff33;
+  background: #ffffff;
   backdrop-filter: blur(4px);
   border: 0;
   transition: background 100ms ease-in-out;
   cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-size: 1rem;
 }
 
 .button:hover {
@@ -47,7 +50,7 @@
 }
 
 .arrow svg {
-  stroke: #fff;
+  stroke: #000;
   transition: stroke 100ms ease-in-out;
 }
 
@@ -58,8 +61,8 @@
 @media (max-width: 1200px) {
   .button {
     background: #fff;
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
   }
 
   .arrow svg {

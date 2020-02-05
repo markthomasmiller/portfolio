@@ -15,8 +15,8 @@ const Services = () => (
         <p>
           I work between disciplines to create elegant, high-quality products. I
           work primarily on frontend and design-related tasks, but am also
-          comfortable on the backend. I take pride in delivering high-quality
-          work with a keen attention to detail.
+          comfortable on certain backends. I take pride in delivering
+          high-quality work with a keen attention to detail.
         </p>
       </div>
       <div className={styles.grid}>

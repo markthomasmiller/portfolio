@@ -6,9 +6,9 @@ import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 const NavigationArrow = ({ direction, onClick }) => (
   <div className={cx(styles[direction], styles.arrow)}>
     <div className={cx(styles.buttonContainer)}>
-      <div className={styles.button} onClick={onClick}>
+      <button className={styles.button} onClick={onClick}>
         {direction === "left" ? <FiChevronLeft /> : <FiChevronRight />}
-      </div>
+      </button>
     </div>
   </div>
 );

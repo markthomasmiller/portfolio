@@ -23,6 +23,6 @@
 
 @media (max-width: 1200px) {
   .footer {
-    padding-top: 2rem;
+    padding: 2rem 0 5rem;
   }
 }
