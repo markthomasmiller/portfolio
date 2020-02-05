@@ -12,7 +12,6 @@ html {
   font-family: var(--font);
   color: var(--body-color);
   line-height: var(--line-height);
-  border: 1rem solid #eee;
 }
 
 a {
@@ -26,15 +25,16 @@ h3 {
 }
 
 h1 {
-  font-size: 62px;
-  font-weight: 600;
-  letter-spacing: -2px;
+  font-size: 28px;
+  font-weight: 400;
+  color: #1a1d20;
+  margin-bottom: 3rem;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 600;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
 }
 
 h3 {

@@ -1,5 +1,5 @@
 .project {
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
 
 .columns {
@@ -7,24 +7,25 @@
 }
 
 .left {
-  padding-right: 1rem;
   flex: 0.75;
+  flex: 0 0 var(--content-width);
 }
 
 .right {
-  flex: 0.25;
+  flex: 1;
 }
 
 .project a {
   color: var(--accent);
-  border-bottom: 1px solid #00000022;
-  padding-bottom: 2px;
+  font-weight: 500;
+  padding-bottom: 4px;
 }
 
 .project em {
   font-style: normal;
-  padding: 4px 0;
   background: var(--highlight);
+  padding: 4px;
+  border-radius: 4px;
 }
 
 .comingSoon {

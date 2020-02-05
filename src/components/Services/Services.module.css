@@ -1,6 +1,8 @@
 .services {
-  background: #eee;
-  padding: 4rem 0;
+  background: linear-gradient(45deg, #0000ff11, #ff000011);
+  padding: 5rem;
+  border-radius: var(--radius);
+  margin-bottom: 5rem;
 }
 
 .services h2 {
@@ -13,12 +15,7 @@
 
 .description {
   margin-bottom: 2rem;
-  width: 75%;
-}
-
-.content {
-  max-width: var(--width);
-  margin: auto;
+  max-width: var(--content-width);
 }
 
 .grid {
@@ -31,12 +28,4 @@
 
 .bigger {
   flex: 1.5;
-}
-
-.line {
-  height: 4px;
-  max-width: 6rem;
-  width: 100%;
-  background: var(--accent);
-  margin: 2rem 0;
 }

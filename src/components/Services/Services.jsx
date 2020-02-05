@@ -10,14 +10,15 @@ import {
 const Services = () => (
   <div className={styles.services}>
     <div className={styles.content}>
-      <h2>Capabilities</h2>
       <div className={styles.description}>
-        I work between disciplines to create elegant, high-quality products. I
-        work primarily on frontend and design-related tasks, but am also
-        comfortable on the backend. I take pride in delivering high-quality work
-        with a keen attention to detail.
+        <h2>Capabilities</h2>
+        <p>
+          I work between disciplines to create elegant, high-quality products. I
+          work primarily on frontend and design-related tasks, but am also
+          comfortable on the backend. I take pride in delivering high-quality
+          work with a keen attention to detail.
+        </p>
       </div>
-      <div className={styles.line} />
       <div className={styles.grid}>
         <div className={styles.column}>
           <h4>Development</h4>

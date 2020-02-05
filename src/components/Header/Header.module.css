@@ -1,13 +1,23 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 2rem;
-  margin-bottom: 3rem;
 }
 
 .header a {
-  color: var(--body-color);
+  color: var(--gray);
+}
+
+a.logo {
+  margin-right: 2rem;
+}
+
+.header ul {
+  list-style: none;
+}
+
+.header li {
+  display: inline-block;
+  margin-right: 1rem;
 }
 
 .header img {

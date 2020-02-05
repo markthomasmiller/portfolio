@@ -1,32 +1,12 @@
 .cta {
   color: #ababbc;
-  background: #1a1d20;
+  background: #000;
+  border-radius: var(--radius);
+  padding: 5rem;
 }
 
 .content {
-  margin: auto;
-  width: 100%;
-  max-width: var(--width);
-  padding: 8rem 1rem;
-  display: flex;
-  align-items: center;
-}
-
-.left {
-  flex: 0.25;
-  padding-right: 2rem;
-}
-
-.right {
-  flex: 0.75;
-}
-
-.cta img {
-  width: 100%;
-  height: 250px;
-  background: #ffffff33;
-  border-radius: var(--radius);
-  display: block;
+  max-width: var(--content-width);
 }
 
 .cta h2 {
@@ -37,4 +17,14 @@
   color: #fff;
   padding-bottom: 2px;
   border-bottom: 2px solid var(--accent);
+}
+
+.cta a:hover {
+  border-bottom-color: #ff0080;
+}
+
+.cta img {
+  border-radius: var(--radius);
+  margin-bottom: 2rem;
+  max-width: var(--content-width);
 }

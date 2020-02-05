@@ -16,3 +16,23 @@
   width: 100%;
   height: auto;
 }
+
+.sample {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  line-height: 1;
+  font-weight: 500;
+  color: #fff;
+  font-size: var(--small);
+  background: #000;
+  padding: 8px 12px;
+  border-radius: var(--radius);
+}
+
+.sample svg {
+  margin-right: 8px;
+  fill: yellow;
+}

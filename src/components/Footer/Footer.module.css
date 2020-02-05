@@ -1,0 +1,22 @@
+.footer {
+  padding: 5rem 0 0;
+  font-size: var(--small);
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer li {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.footer a {
+  color: var(--gray);
+  transition: 100ms color ease-in-out;
+}
+
+.footer a:hover {
+  color: #000;
+}

@@ -1,29 +1,68 @@
 export default [
   {
+    title: "Everpage: A Landing Page Builder",
+    description:
+      "_I was the sole developer and designer for this React-based landing page builder._ You can choose which sections you prefer (with options like pricing charts, FAQ sections, and feature overviews), edit the content, and select a font and color to generate your own landing page in minutes.",
+    link: {
+      text: "Try it for free",
+      url: "https://everpage.zeph.co"
+    },
+    skills: {
+      development: [
+        "React",
+        "MobX",
+        "Browser storage APIs",
+        "Memberful API",
+        "HTML5",
+        "CSS3"
+      ],
+      design: ["UI", "UX", "Typography", "Creative direction"]
+    },
+    images: [
+      {
+        url: "/assets/everpage3.png",
+        description: "imagedescription"
+      },
+      {
+        url: "/assets/everpage1.png",
+        description: "imagedescription"
+      },
+      {
+        url: "/assets/everpage2.png",
+        description: "imagedescription"
+      },
+      {
+        url: "/assets/everpage4.png",
+        description: "imagedescription"
+      }
+    ]
+  },
+  {
     title: "MageTools: A DevTools Alternative",
     description:
-      "I was the _sole engineer and designer_ for MageTools, a faster alternative to Google Chrome's DevTools inspector. I handled everything from designing its branding and onboarding to engineering its main features.",
+      "I was the _sole engineer and designer_ for MageTools, a faster alternative to Google Chrome's DevTools inspector. I handled everything from designing its branding and onboarding to developing its feature set that works extensively with the DOM. It was featured on Web Tools Weekly and BetaPage.",
     link: {
       text: "Go to website",
       url: "https://mage.tools"
     },
-    skills: [
-      "React",
-      "JavaScript",
-      "Serverless",
-      "User Onboarding",
-      "UI/UX Design",
-      "Branding",
-      "HTML & CSS",
-      "Chrome Extension API"
-    ],
+    skills: {
+      development: [
+        "React",
+        "JavaScript",
+        "Serverless",
+        "HTML5",
+        "SCSS",
+        "Chrome Extension API"
+      ],
+      design: ["User onboarding", "UI", "UX", "Branding"]
+    },
     images: [
       {
-        url: "/assets/magetools1.png",
+        url: "/assets/magetools2.png",
         description: "imagedescription"
       },
       {
-        url: "/assets/magetools2.png",
+        url: "/assets/magetools1.png",
         description: "imagedescription"
       },
       {
@@ -41,65 +80,17 @@ export default [
     ]
   },
   {
-    title: "Diversify Pittsburgh",
-    description:
-      "I was hired to _design and develop this 50+ page B2B application_, from choosing the tech stack to developing the user flows and writing the algorithm that helps people discover contracting opportunities in their industry. I also created a user role management system.",
-    skills: [
-      "Ruby on Rails",
-      "JavaScript",
-      "UI",
-      "UX",
-      "User flow",
-      "Mobile design"
-    ],
-    images: [
-      {
-        url: "/assets/diversify1.png",
-        description: "imagedescription"
-      },
-      {
-        url: "/assets/diversify2.png",
-        description: "imagedescription"
-      },
-      {
-        url: "/assets/diversify3.png",
-        description: "imagedescription"
-      }
-    ]
-  },
-  {
-    title: "Pittsburgh BizGrid",
-    description:
-      "I was hired to design and develop this React application in one month. My client and I worked alongside Google and Carnegie Mellon University in brainstorming sessions. The design is responsive, and _the operating cost of the website is nothing_, other than paying for the domain name each year.",
-    link: {
-      text: "Go to website",
-      url: "https://pghbizgrid.app"
-    },
-    skills: ["React", "JSON", "UI", "UX", "Responsive design", "JSON"],
-    images: [
-      {
-        url: "/assets/bizgrid1.png",
-        description: "imagedescription"
-      },
-      {
-        url: "/assets/bizgrid2.png",
-        description: "imagedescription"
-      },
-      {
-        url: "/assets/bizgrid3.png",
-        description: "imagedescription"
-      }
-    ]
-  },
-  {
     title: "Featurebridge",
     description:
-      "I designed and developed this application to help companies collect feature requests. It allows companies to embed a feature request portal on their sites and even pass in a user's information to allow them to vote seamlessly. I developed it with Ruby on Rails and created a customer-facing (JavaScript-based) frontend API.",
+      "I designed and developed this application to help companies collect feature requests. It allows them to embed a feature request portal on their website and even pass in a user's information to allow them to vote seamlessly. I developed it with Ruby on Rails and created a customer-facing (JavaScript-based) frontend API.",
     link: {
       text: "Go to website",
       url: "https://featurebridge.com"
     },
-    skills: ["Ruby on Rails", "JavaScript", "UI", "UX", "Branding"],
+    skills: {
+      development: ["Ruby on Rails", "JavaScript", "HTML5 (ERB)", "SCSS"],
+      design: ["UI", "UX", "Branding"]
+    },
     images: [
       {
         url: "/assets/featurebridge1.png",
@@ -128,22 +119,76 @@ export default [
     ]
   },
   {
+    title: "Diversify Pittsburgh",
+    description:
+      "I was hired to _design and develop this 50+ page B2B Rails application_, from choosing the tech stack to developing the user flows and writing the algorithm that helps people discover contracting opportunities in their industry. I also created a user role management system. ",
+    skills: {
+      development: ["Ruby on Rails", "JavaScript", "HTML5 (ERB)", "SCSS"],
+      design: ["UI", "UX", "User flow", "Mobile design"]
+    },
+    sampleData: true,
+    images: [
+      {
+        url: "/assets/diversify2.png",
+        description: "imagedescription"
+      },
+      {
+        url: "/assets/diversify1.png",
+        description: "imagedescription"
+      },
+      {
+        url: "/assets/diversify3.png",
+        description: "imagedescription"
+      }
+    ]
+  },
+  {
+    title: "Pittsburgh BizGrid",
+    description:
+      "I was hired to develop and design this React application. I was fortunate to work alongside Google and Carnegie Mellon University to brainstorm its strategic direction. It is a progressive web app with an easy-to-use mobile design, and it has no hosting costs.",
+    link: {
+      text: "Go to website",
+      url: "https://pghbizgrid.app"
+    },
+    skills: {
+      development: ["React", "JSON", "CSS3"],
+      design: ["UI", "UX", "Mobile design"]
+    },
+    images: [
+      {
+        url: "/assets/bizgrid1.png",
+        description: "imagedescription"
+      },
+      {
+        url: "/assets/bizgrid2.png",
+        description: "imagedescription"
+      },
+      {
+        url: "/assets/bizgrid3.png",
+        description: "imagedescription"
+      }
+    ]
+  },
+  {
     title: "Frontend at Jump",
     description:
-      "I was hired to overhaul an application from Ruby on Rails to React in a very short timeframe. I created their component library, _developed dynamic landing pages_, and rewrote their CSS framework (resulting in 80% bandwidth savings). I _helped build the frontend for their main application, billing portal_, and parts of their marketing site.",
+      "I was hired to overhaul this application from Ruby on Rails to React. _I helped build the frontend for their main application, billing portal_, and parts of their marketing site. I created their component library, developed dynamic landing pages, and rewrote their CSS framework (resulting in 80% bandwidth savings).",
     link: {
       text: "Go to website",
       url: "https://playonjump.com"
     },
-    skills: [
-      "React",
-      "Ruby on Rails",
-      "Accessibility",
-      "HTML",
-      "CSS",
-      "Electron",
-      "JSON"
-    ],
+    skills: {
+      development: [
+        "React",
+        "Ruby on Rails",
+        "Frontend Performance",
+        "HTML5",
+        "SCSS",
+        "Electron",
+        "JSON"
+      ],
+      design: ["Accessibility", "Mobile design"]
+    },
     images: [
       {
         url: "/assets/jump1.png",
@@ -156,50 +201,17 @@ export default [
     ]
   },
   {
-    title: "Everpage: A Landing Page Builder",
-    description:
-      "I designed and developed this landing page builder with React. Users could arrange their preferred sections (pricing charts, FAQ sections, feature descriptions), edit their content, and select their favorite font and color to _generate their own landing page in minutes_.",
-    skills: [
-      "React",
-      "MobX",
-      "Serverless",
-      "Browser storage APIs",
-      "HTML",
-      "CSS",
-      "UI",
-      "UX",
-      "Typography",
-      "Creative direction",
-      "Memberful API"
-    ],
-    images: [
-      {
-        url: "/assets/everpage1.png",
-        description: "imagedescription"
-      },
-      {
-        url: "/assets/everpage2.png",
-        description: "imagedescription"
-      },
-      {
-        url: "/assets/everpage3.png",
-        description: "imagedescription"
-      },
-      {
-        url: "/assets/everpage4.png",
-        description: "imagedescription"
-      }
-    ]
-  },
-  {
     title: "Sorcerer",
     description:
-      "Developers spend between 7 to 9 hours per day looking at their text editors. I designed an open source VS Code theme, primarily for React development, that was useful for these long work days. This was primarily an _exercise in color theory for a product that people use all day, every day_. I also designed and developed its landing page.",
+      "Developers spend between 7 to 9 hours per day looking at their text editors. I designed an open source VS Code theme, primarily for React development, that was useful for these long work days. This was primarily an _exercise in color for a product that people use all day, every day_. I also created its landing page.",
     link: {
       text: "Go to website",
       url: "https://sorcerer.mage.tools"
     },
-    skills: ["UI", "UX", "Branding", "Color theory"],
+    skills: {
+      development: ["VS Code Extension API", "JSON"],
+      design: ["Branding", "Color"]
+    },
     images: [
       {
         url: "/assets/sorcerer1.png",
@@ -218,8 +230,18 @@ export default [
   {
     title: "Diversify Pittsburgh, Admin Dashboard",
     description:
-      "I designed and developed this _data-heavy admin dashboard_ to help my client manage their users and _track platform metrics_. I added charts for data visualization, user roles, the functionality to approve users, and performance insights, and admin notifications.",
-    skills: ["Ruby on Rails", "JavaScript", "Chart.js", "UI", "UX"],
+      "I designed and developed this data-heavy admin dashboard to help my client manage their users and track platform metrics. I added charts for data visualization, user roles, the functionality to approve users, and performance insights, and admin notifications.",
+    skills: {
+      development: [
+        "Ruby on Rails",
+        "JavaScript",
+        "Chart.js",
+        "HTML5 (ERB)",
+        "SCSS"
+      ],
+      design: ["UI", "UX", "User flow", "Accessibility"]
+    },
+    sampleData: true,
     images: [
       {
         url: "/assets/diversifyadmin1.png",
@@ -238,23 +260,29 @@ export default [
   {
     title: "MageTools Marketing Site",
     description:
-      "I designed and developed a _media-rich marketing site_ with a live demo, promotional video, and various gifs on the homepage. Because of the bandwidth requirements, I chose to build on Jekyll to keep the site _fast and cost efficient_. The site also _controls the user onboarding for MageTools_ and hosts the serverless function for validating licenses.",
+      "I designed and developed the marketing site for MageTools. It hosts a live demo and promotional video and controls user onboarding and license validation. Because of the bandwidth requirements, I chose to build on Jekyll to keep the site as small and cost-efficient as possible.",
     link: {
       text: "Go to website",
       url: "https://mage.tools"
     },
-    skills: [
-      "Jekyll",
-      "Ruby",
-      "JavaScript",
-      "UI",
-      "UX",
-      "Branding",
-      "Accessibility",
-      "Performance",
-      "Responsive design",
-      "Copywriting"
-    ],
+    skills: {
+      development: [
+        "Jekyll",
+        "JavaScript",
+        "Frontend Performance",
+        "Serverless",
+        "HTML5 (Liquid)",
+        "SCSS"
+      ],
+      design: [
+        "UI",
+        "UX",
+        "Branding",
+        "Accessibility",
+        "Mobile design",
+        "Copywriting"
+      ]
+    },
     images: [
       {
         url: "/assets/magetoolsmarketing1.png",

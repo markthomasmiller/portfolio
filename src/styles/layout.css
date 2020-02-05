@@ -1,0 +1,12 @@
+.content {
+  padding: 100px;
+  max-width: var(--max-width);
+  width: 100%;
+  margin: auto;
+}
+
+@media (max-width: var(--width)) {
+  .content {
+    padding: 1rem;
+  }
+}

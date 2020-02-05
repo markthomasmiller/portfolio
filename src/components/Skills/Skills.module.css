@@ -1,27 +1,33 @@
 .skills {
   list-style: none;
+  line-height: 1.5;
+  text-align: right;
+}
+
+.column {
+  flex: 1;
+  padding-left: 2rem;
 }
 
 .skills strong {
-  font-weight: 400;
+  font-weight: 500;
   color: #000;
   font-size: var(--small);
-  display: block;
 }
 
 .skills ul {
   list-style: none;
+  margin-bottom: var(--small);
 }
 
 .skill {
   color: var(--gray);
   font-size: var(--small);
-  display: inline-block;
+  display: inline;
 }
 
 .skill:after {
   content: ", ";
-  margin-right: 4px;
 }
 
 .skill:last-of-type:after {

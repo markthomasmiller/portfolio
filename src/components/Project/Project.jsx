@@ -5,10 +5,10 @@ import Skills from "../Skills";
 import Markdown from "react-markdown";
 
 const Project = ({ project }) => {
-  const { images, title, description, link, skills } = project;
+  const { images, title, description, link, skills, sampleData } = project;
   return (
     <div className={styles.project}>
-      <Gallery images={images} />
+      <Gallery images={images} sampleData={sampleData} />
       <div className={styles.columns}>
         <div className={styles.left}>
           <h3>{title}</h3>

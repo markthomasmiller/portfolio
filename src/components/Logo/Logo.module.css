@@ -1,0 +1,76 @@
+.logo div {
+  border: 1px solid #000;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation-name: rotate;
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.logo:hover div {
+  border: 0;
+  background: linear-gradient(45deg, #fff, #000);
+}
+
+.a {
+  width: 40px;
+  height: 40px;
+}
+
+.b {
+  width: 36px;
+  height: 36px;
+}
+
+.c {
+  width: 32px;
+  height: 32px;
+}
+
+.d {
+  width: 28px;
+  height: 28px;
+}
+
+.e {
+  width: 24px;
+  height: 24px;
+}
+
+.f {
+  width: 20px;
+  height: 20px;
+}
+
+.g {
+  width: 16px;
+  height: 16px;
+}
+
+.h {
+  width: 12px;
+  height: 12px;
+}
+
+.i {
+  width: 8px;
+  height: 8px;
+}
+
+.j {
+  width: 4px;
+  height: 4px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

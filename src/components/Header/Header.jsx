@@ -1,13 +1,16 @@
 import React from "react";
 import styles from "./Header.module.css";
-import logo from "../../assets/logo.svg";
+import Logo from "../Logo";
 
 const Header = () => (
   <div className={styles.header}>
-    <a href="https://zeph.co">
-      <img src={logo} alt="logo" />
+    <a
+      href="https://zeph.co"
+      className={styles.logo}
+      data-text="Mark Thomas Miller"
+    >
+      <Logo />
     </a>
-    <a href="mailto:mark@mayvalellc.com">Contact</a>
   </div>
 );
 

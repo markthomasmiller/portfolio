@@ -1,31 +1,11 @@
 .introduction {
-  max-width: var(--width);
   width: 100%;
-  margin: 0 auto 4rem;
-  display: flex;
-}
-
-.introduction p {
-  font-size: 21px;
-}
-
-.left {
-  flex: 0.75;
-}
-
-.right {
-  flex: 0.25;
-}
-
-.line {
-  height: 6px;
-  max-width: 6rem;
-  width: 100%;
-  margin: 2rem 0;
-  background: linear-gradient(45deg, red, blue);
+  max-width: var(--content-width);
+  margin: 5rem 0;
 }
 
 .highlight {
   background: var(--highlight);
-  padding: 4px 0;
+  padding: 4px;
+  border-radius: 4px;
 }
