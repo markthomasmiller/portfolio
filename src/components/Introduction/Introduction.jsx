@@ -4,7 +4,7 @@ import Testimonial from "../Testimonial";
 
 const Introduction = () => (
   <div className={styles.introduction}>
-    <h1>“Mark is without a doubt our secret weapon.”</h1>
+    <h1>“Mark is, without a doubt, our secret weapon.”</h1>
     <p>
       I'm Mark Thomas Miller,{" "}
       <span className={styles.highlight}>a hybrid engineer and designer</span>{" "}
@@ -21,8 +21,8 @@ const Introduction = () => (
       you <em>need</em>. His ability to break through the chatter and get to the
       root of the actual problems we're trying to solve has saved us
       considerable time and money. We can always count on him to deliver
-      amazing, quality work on time, and to communicate exceptionally well. He
-      is without a doubt our secret weapon.
+      amazing, quality work on time, and to communicate exceptionally well. Mark
+      is, without a doubt, our secret weapon.
     </Testimonial>
   </div>
 );
