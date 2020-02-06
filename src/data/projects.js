@@ -234,7 +234,7 @@ export default [
   {
     title: "MageTools Marketing Site",
     description:
-      "I designed and developed the marketing site for MageTools. _I also rigged a live demo and created the promotional video._ In addition, this site controls the user onboarding and license validation. Because of the heavy media files, I chose to build on Jekyll to keep the site as small and cost-efficient as possible.",
+      "I designed and developed the marketing site for MageTools. _I also set up a live demo on the homepage_, and I created its promotional video. In addition, this site controls the user onboarding and license validation for new users. Because of the heavy media files, I chose to build on Jekyll to keep the site as small and cost-efficient as possible.",
     link: {
       text: "Go to website",
       url: "https://mage.tools"
