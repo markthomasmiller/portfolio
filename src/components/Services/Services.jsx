@@ -23,24 +23,24 @@ const Services = () => (
         <div className={styles.column}>
           <h4>Development</h4>
           <ul>
-            {developmentServices.map(service => (
-              <Service {...service} />
+            {developmentServices.map((service, i) => (
+              <Service key={`dev${i}`} {...service} />
             ))}
           </ul>
         </div>
         <div className={styles.column}>
           <h4>Design</h4>
           <ul>
-            {designServices.map(service => (
-              <Service {...service} />
+            {designServices.map((service, i) => (
+              <Service key={`design${i}`} {...service} />
             ))}
           </ul>
         </div>
         <div className={styles.column}>
           <h4>General</h4>
           <ul>
-            {generalServices.map(service => (
-              <Service {...service} />
+            {generalServices.map((service, i) => (
+              <Service key={`gen${i}`} {...service} />
             ))}
           </ul>
         </div>
