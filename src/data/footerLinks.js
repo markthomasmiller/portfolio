@@ -1,7 +1,7 @@
 export default [
   {
     text: "About",
-    url: "https://zeph.co/about"
+    url: "https://zeph.co"
   },
   {
     text: "Code sample",
